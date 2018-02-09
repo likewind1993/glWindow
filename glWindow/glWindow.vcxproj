@@ -142,14 +142,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bmp.cpp" />
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Log.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModelGL.cpp" />
     <ClCompile Include="procedure.cpp" />
+    <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bmp.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="ModelGL.h" />
     <ClInclude Include="procedure.h" />
+    <ClInclude Include="Sphere.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
